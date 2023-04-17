@@ -112,6 +112,10 @@ body{
     font-weight: 400;
 }
 
+.card__info{
+    cursor: pointer;
+}
+
 @media screen and (max-width:320px){
     .card{
         width: 300px;
@@ -147,7 +151,7 @@ body{
     }
 
     .card__conteudo{
-        width: 83.4%;
+        width: 84%;
     }
 
     .card__title{
