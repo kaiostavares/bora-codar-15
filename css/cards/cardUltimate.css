@@ -1,0 +1,63 @@
+.card--ultimate{
+    background: #0F172A;
+    margin-top: 1rem;
+}
+
+.stamp{
+    background: #FBA94C;
+    border-radius: 0.5rem;
+    color: #0F172A;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    top: 360px;
+    text-align: center;
+}
+
+.title--ultimate{
+    color: #F8FAFC;
+}
+
+.price--ultimate{
+    color: #F8FAFC;
+}
+
+.button--ultimate{
+    color: #FFFFFF;
+    background: #996DFF;
+}
+
+.button--ultimate:hover{
+    background: #7C3AED;
+}
+
+.diviser--ultimate{
+    border-color: #334155;
+}
+
+.text--ultimate{
+    color: #CBD5E1;
+}
+
+.card__description--enterprise{
+    letter-spacing: 0.06em;
+}
+
+
+@media screen and (min-width:667px) {
+    .card--ultimate{
+        margin:0;
+    }
+
+    .stamp{   
+        top: 67.5px;
+        bottom: auto;
+    }
+}
+
+@media screen and (min-width:1012px){
+   .stamp{
+    top: 190px;
+   } 
+}
